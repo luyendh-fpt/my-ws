@@ -52,4 +52,8 @@ public class Account {
     public void setStatus(int status) {
         this.status = status;
     }
+
+    public void addBalance(double balance) {
+        this.balance += balance;
+    }
 }

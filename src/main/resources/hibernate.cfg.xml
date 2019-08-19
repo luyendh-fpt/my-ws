@@ -19,5 +19,6 @@
         <property name="hbm2ddl.auto">update</property>
 
         <mapping class="example.entity.Account"/>
+        <mapping class="example.entity.TransactionLog"/>
     </session-factory>
 </hibernate-configuration>
